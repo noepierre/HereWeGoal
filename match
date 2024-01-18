@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/game.css">
+    <title>Game Page</title>
+</head>
+<body>
+    <button class="back-button" onclick="goBack()">Retour</button>
+    
+    <div class="container">
+        <p>Question du jeu ?</p>
+        <button class="proposition">Proposition 1</button>
+        <button class="proposition">Proposition 2</button>
+        <button class="proposition">Proposition 3</button>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.container {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ffdfdb;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    padding: 20px;
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container p {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+    color: #f0604d;
+}
+
+.container button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f0604d;
+    color: #ffdfdb;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.container .proposition {
+    display: block;
+    margin: 10px auto;
+    width: 80%;
+    background-color: #f0604d;
+    color: #ffdfdb;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.back-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #f0604d;
+    background-color: #ffdfdb;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
